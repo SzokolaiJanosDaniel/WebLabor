@@ -1,7 +1,3 @@
-// Feltételezzük, hogy az űrlapnak van egy id-ja: "myForm"
-
-// A submit eseményre kötjük
-
 window.addEventListener('DOMContentLoaded', (event) => {
     const form = document.getElementById('myForm');
 
