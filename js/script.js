@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const form = document.getElementById('myForm');
 
     form.addEventListener('submit', function (e) {
-        e.preventDefault(); // Ne küldje el azonnal az űrlapot
+        e.preventDefault();
 
         let isValid = true;
         const inputs = form.querySelectorAll('input, textarea');
