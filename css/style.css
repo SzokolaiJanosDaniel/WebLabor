@@ -1,0 +1,27 @@
+  .img-rounded-shadow {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+h1, h2, h3, h5 {
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.citing {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 5px;
+}

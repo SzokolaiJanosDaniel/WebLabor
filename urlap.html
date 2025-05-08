@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web beadandó</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Honda Weboldal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tabla.html">Táblázat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="urlap.html">Űrlap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="auto.html">Autó</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="motor.html">Motor</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <div class="container mt-5 pt-4">
+      <h1 class="text-center">Kapcsolatfelvételi Űrlap</h1>
+      <form id="contactForm" onsubmit="return validateForm();">
+      </div>
+        <div class="container mt-5 pt-4">
+          <div class="mb-3">
+              <label for="name">Név</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Írd be a neved" required>
+          </div>
+          <div class="mb-3">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Írd be az email címed" required>
+          </div>
+          <div class="mb-3">
+              <label for="phone">Telefonszám</label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="Írd be a telefonszámod" required>
+          </div>
+          <div class="mb-3">
+              <label for="subject">Téma</label>
+              <select id="subject" name="subject" class="form-select" required>
+                  <option value="">Válassz egy témát</option>
+                  <option value="Autók">Autók</option>
+                  <option value="Motorok">Motorok</option>
+                  <option value="Szerviz">Szerviz</option>
+                  <option value="Egyéb">Egyéb</option>
+              </select>
+          </div>
+          <div class="mb-3">
+              <label for="message">Üzenet</label>
+              <textarea id="message" name="message" class="form-control" rows="5" placeholder="Írd be az üzeneted" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Küldés</button>
+      </form>
+  </div>
+  <div class="d-flex justify-content-center gap-2 my-3 flex-wrap">
+    <img src="img/urlap_1.jpg" class="img-rounded shadow" alt="urlap_1" width="30%">
+  </div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <div class="container">
+        <p class="mb-0">Készítette: Szokolai János Dániel |HI20V9|</p>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
